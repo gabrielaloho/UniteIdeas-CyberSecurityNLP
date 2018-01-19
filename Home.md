@@ -82,11 +82,11 @@ Topics or keywords: "children, attacks, green computing, denial of service, etc"
 Sentence Position in Document: page #, or byte   (this is so then we can link to the sentence)  
 ```
 
-### Search (optional but very useful)
+### Search & Classification
 If you used a search engine for any of the steps above this information is unnecessary to you, but if you did not, keep reading:
 - If the thousands of sentences in the documents could be ingested into an Apache Solr or Elastic Search server they could be easily searched by the end-users with their specific queries.
 
-### Unsupervised topic extraction (optional but useful)
+### Unsupervised topic extraction
 If you can also do an unsupervised analysis to extract the topics of the sentences, this would also be useful. This would show that there might be some important topics which do not fit in any of the classification categories of the table above.
 
 
