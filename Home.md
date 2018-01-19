@@ -4,12 +4,15 @@ Machine-based Text Analytics of National Cybersecurity Strategies
 **A collaborative project of [Unite Ideas](https://ideas.unite.un.org), the Digital Blue Helmets, Fordham University, and Northeastern University.** 
 
 ## Overall Objective of the system
+Build a tool to analyze the text of Cybersecurity strategies of more than 75 countries to find their commonalities, differences, and key characteristics.
+
+Analyzing strategy documents is a difficult task which requires human knowledge held by specialists in public policymaking, cybersecurity, legal, human resources, and other domains. It also involves lengthy manual reviewing and highlighting of documents in different formats.  Let's expedite this effort.
 
 
 ## Previous work and References
 
 > A 1st version of this project was developed by New York University and Fordham University
-> [DEMO: ](http://nyuvis.github.io/revex/ict4sd/)  [REPO: ](https://github.com/ICT4SD/CyberSecurity_Strategies/)
+> [ DEMO ](http://nyuvis.github.io/revex/ict4sd/)  [ REPO ](https://github.com/ICT4SD/CyberSecurity_Strategies/)
 
 ### Shortcomings of previous version: 
 * poor text extraction from the original documents
@@ -41,20 +44,16 @@ Machine-based Text Analytics of National Cybersecurity Strategies
 * multi-lingual support
 
 ## Datasets
-The cybersecurity strategies can be downloaded from this website from the International Telecommunications Union:
+The cybersecurity strategies can be downloaded from this website from the [International Telecommunications Union - National Cybersecurity Strategies repository](http://www.itu.int/en/ITU-D/Cybersecurity/Pages/National-Strategies-repository.aspx)
 
-[National Cybersecurity Strategies repository](http://www.itu.int/en/ITU-D/Cybersecurity/Pages/National-Strategies-repository.aspx)
-
-Here you can see a human analysis of cyberscurity laws. It would be interesting to see whether a similar analysis per country could be done using machine-learning or other text mining techniques:
-
-[Cyberwellness Profiles](http://www.itu.int/en/ITU-D/Cybersecurity/Pages/Country_Profiles.aspx)
+[Here](http://www.itu.int/en/ITU-D/Cybersecurity/Pages/Country_Profiles.aspx) you can see a human analysis of cyberscurity strategies. It would be interesting to see whether a similar analysis per country could be done using machine-learning or other text mining techniques.
 
 
 ## Suggested analysis
 
 ###Text mining
 
-- Create a text version of each of the 73 cybersecurity strategy documents at the link above
+- Create a text version of each of the cybersecurity strategy documents at the link above
 - Break down each document into sentences
 - Classify each sentence and try to assign it a tag from this list below. It is expected that each document will have hundreds or thousands of sentences tagged and many sentences which can't be tagged because they are note related to any of the tags below.
 
