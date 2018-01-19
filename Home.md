@@ -11,8 +11,8 @@ Analyzing strategy documents is a difficult task which requires human knowledge 
 
 ## Previous work and References
 
-> A 1st version of this project was developed by New York University and Fordham University
-> [ DEMO ](http://nyuvis.github.io/revex/ict4sd/)  [ REPO ](https://github.com/ICT4SD/CyberSecurity_Strategies/)
+> A 1st version of this project was developed by New York University and Fordham University | view 
+> [ DEMO ](http://nyuvis.github.io/revex/ict4sd/) and [ REPO ](https://github.com/ICT4SD/CyberSecurity_Strategies/). This tool was described and showcased to National Governments at the World Summit on the Information Society (WSIS) Forum 2017 in Geneva, Switzerland. [watch the meeting recording](https://www.itu.int/net4/wsis/forum/2017/Agenda/Session/315).
 
 ### Shortcomings of previous version: 
 * poor text extraction from the original documents
